@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import Loading from "./Loading"
 import Product from "./Product"
-import useProducts from "../hooks/useProducts"
+
 
 const Cart = () => {
   const [product, setProduct] = useState([])
