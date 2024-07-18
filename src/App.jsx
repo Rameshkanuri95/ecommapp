@@ -1,9 +1,11 @@
 import React from "react"
-
+import Navbar from "./components/Navbar"
+import Cart from "./components/Cart"
 function App() {
   return (
     <>
-      <h1 className="text-success text-center">Ecommere App</h1>
+      <Navbar />
+      <Cart />
     </>
   )
 }
